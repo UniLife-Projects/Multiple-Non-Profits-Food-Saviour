@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8430e9a8.css",
+    "main.js": "/static/js/main.15dc520d.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/login_bg.png": "/static/media/login_bg.158e15d067cd25a1c7cd.png",
+    "static/media/abstract-user-flat-4.png": "/static/media/abstract-user-flat-4.b95230eee6c958dbea8a.png",
+    "static/media/ORT_logo.svg": "/static/media/ORT_logo.6b5c131e91955983ece7613336ed68b6.svg",
+    "static/media/calendar.png": "/static/media/calendar.ebf373e6fb5aa2935c1d.png",
+    "index.html": "/index.html",
+    "main.8430e9a8.css.map": "/static/css/main.8430e9a8.css.map",
+    "main.15dc520d.js.map": "/static/js/main.15dc520d.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8430e9a8.css",
+    "static/js/main.15dc520d.js"
+  ]
+}

@@ -1,0 +1,35 @@
+.profile_img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card_head {
+    font-size: larger;
+}
+
+.edit_btn {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.save_btn {
+    margin: 1em 1.5em;
+    width: 7em;
+    height: 2em;
+    padding: 0;
+}
+
+.withdraw_btn {
+    width: fit-content;
+}
+
+input {
+    border-radius: 5px;
+}
+
+input::placeholder {
+    padding: 10px;
+}

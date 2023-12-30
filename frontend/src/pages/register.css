@@ -1,0 +1,151 @@
+@keyframes hue {
+
+  from {
+    opacity: 0;
+
+  }
+
+  to {
+    opacity: 1;
+
+  }
+}
+
+
+
+h1 {
+  animation: hue 0.5s ease-in-out forwards;
+}
+
+.form-register {
+  width: 100%;
+  height: fit-content;
+  display: flexbox;
+  height: 90vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-image: url('../images/login_bg.png') !important;
+  animation: fadeIn 0.5s ease-in-out forwards;
+
+}
+
+.form-container-register {
+  width: 45%;
+  height: fit-content;
+  max-height: fit-content;
+  margin-top: 23%;
+  left: 50%;
+  text-align: center;
+  align-items: center;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background: #ffffff;
+  filter: drop-shadow(0px 25px 80px rgba(0, 0, 0, 0.2));
+  position: absolute;
+  padding: 3%;
+
+}
+
+.form-container-register .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.progressbar {
+  width: 40vw;
+  /* 90% of the viewport width */
+  height: 0.5vh;
+  /* or any other fixed value */
+  transition: 0.4s ease;
+  background-color: #cee4cf;
+  margin-bottom: 10%;
+  border-radius: 16px;
+}
+
+.progressbar div {
+  width: 33.3%;
+  height: 100%;
+  background-color: green;
+  transition: 0.4s ease;
+}
+
+
+label {
+  width: calc(100%);
+}
+
+textarea {
+
+  resize: none;
+  width: 70%;
+  padding: 6%;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.success {
+  border: 1px solid green;
+}
+
+.text_input {
+  width: 50%;
+  margin: 3% 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+
+.form-check {
+  text-align: center;
+  margin-top: 2%;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 25%;
+  position: relative;
+}
+
+
+.btn {
+  margin-top: 4%;
+  margin-left: 2%;
+  font-family: inherit;
+  width: 7rem;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.97);
+  z-index: 1000;
+}
+
+.consent {
+  margin: 2% 23%;
+}
+
+.consent .consent_text {
+  width: 30%;
+}
+
+label {
+  width: calc(100%);
+}

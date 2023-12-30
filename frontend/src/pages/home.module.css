@@ -1,0 +1,61 @@
+
+@keyframes hue {
+
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    
+}
+
+body{
+  background-image: none !important;
+  background-size: 0%; 
+}
+
+.container{
+  padding: 0;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  height: 80vh;
+}
+
+.card{
+  padding: 4% !important;
+  margin-right: 5%;
+  margin-left: 7%;
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: 160ms ease-out 0s 1 hue;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 1em !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+}
+.card-text{
+  margin-top: 4% !important;
+  animation: 160ms ease-out 0ms 1 hue;
+ 
+ 
+}
+.normal_img{
+  transition: all .2s ease-in-out; 
+  animation: 160ms ease-out 0ms 1 hue;
+}
+.tracker_img:hover, .normal_img:hover{
+  transform: scale(1.1);
+}
+.tracker_img {
+  clip-path: circle();
+  transition: all .2s ease-in-out; 
+  animation: 160ms ease-out 0ms 1 hue;
+}

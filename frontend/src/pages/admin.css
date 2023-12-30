@@ -1,0 +1,51 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.container-fluid,
+.container-lg {
+    margin-top: 5%;
+    padding: 2em;
+    width: auto;
+    border-radius: 5px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(91, 6, 6, 0.26);
+
+}
+
+
+/*footer {
+    margin-top: 20%;
+    height: auto !important;
+    max-height: 2%;
+    height: 2%;
+    position: relative;
+    overflow: hidden;
+
+}*/
+
+h5 {
+    margin-top: 2%;
+}
+
+table {
+    margin-top: 2%;
+}
+
+.form-check select {
+    margin-left: -5%;
+}
+
+#roles {
+    margin-left: 16%;
+    display: block;
+    width: 50ch;
+    word-wrap: break-word;
+    white-space: initial;
+}

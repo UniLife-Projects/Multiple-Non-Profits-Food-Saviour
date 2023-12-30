@@ -1,0 +1,20 @@
+# Client Meeting 8 February 2023 1130
+
+## Follow-Ups from Last Week
+
+- REST API connection
+
+## Agenda
+
+- Passing data between the front end to the back end
+
+## To Do
+
+###### tracker page
+
+- Add 'Other' between the 'Partner Network' and 'Landfill'
+  - And possibly a 'Description' input on the side (in the same row)
+
+###### Sharing page
+
+-[ ] Create a graphing that is integrated with the data in the Trackers page
